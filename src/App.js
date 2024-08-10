@@ -24,7 +24,7 @@ const App = () => {
 
   return (
     <div className="app">
-      <h1>Multi-Mode Calculator</h1>
+      <h1>Multi-Mode Calculator by Zahid</h1>
       <div className="controls">
         <select value={mode} onChange={handleModeChange}>
           <option value="standard">Standard Calculator</option>
