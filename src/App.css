@@ -1,0 +1,39 @@
+/* src/App.css */
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #e67e22; /* Orange background */
+  padding: 20px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.controls select {
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.toggle-button {
+  background-color: #f39c12;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.toggle-button:hover {
+  background-color: #e67e22;
+}
